@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import title from '../src/Components/Assets/'
 import reportWebVitals from './reportWebVitals';
 import ShopContextProvider from './Context/ShopContext';
 
