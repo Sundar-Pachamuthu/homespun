@@ -1,0 +1,32 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.popular h1{
+    background:linear-gradient(to bottom, rgb(110, 248, 110), rgb(2, 127, 2)); 
+    color: transparent;
+    background-clip: text;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 40px;
+    font-family: header;
+    text-transform: uppercase;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(110, 248, 110);
+    border: none;
+}
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.popular-item img{
+    border-radius: 15px;
+}

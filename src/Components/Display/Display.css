@@ -1,0 +1,77 @@
+.display-star img{
+    width: 20px;
+    height: 20px;
+    filter: hue-rotate(100deg);
+}
+.display-star {
+    display: flex;
+    color: rgb(24, 190, 24);
+}
+.display{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.display-left{
+    flex: 1;
+    /* background-color: aqua; */
+}
+.display-left img{
+    width: 50vw;
+    height: 50%;
+    margin: 20px;
+    border-radius: 30px;
+}
+.display-right{
+    display: flex;
+    flex: 1;
+    transform: translateY(-30%);
+    /* gap: 20px; */
+    /* background-color: pink; */
+    /* justify-content: start; */
+    /* align-items: start; */
+    flex-direction: column;
+}
+.display-right h1{
+    font-size: 4rem;
+    /* color: black; */
+    background: linear-gradient(to bottom, rgb(65, 231, 65), rgb(0, 90, 0));
+    color: transparent;
+    background-clip: text;
+}
+.display-prices{
+    display: flex;
+    gap: 20px;
+    margin-top: 18px;
+}
+.display-oldprice{
+    font-size: 2rem;
+    text-decoration:line-through ;
+    color: rgba(255, 0, 0, 0.715);
+}
+.display-newprice{
+    font-size: 2.3rem;
+    color: green;
+    font-weight: 700;
+}
+.display-discription{
+    text-align: justify;
+    /* background-color: pink; */
+    width: 90%;
+    font-size: 1.2rem;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.display-right button{
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    background: green;
+    color: white;
+    font-weight: 600;
+    width: 40%;
+}
